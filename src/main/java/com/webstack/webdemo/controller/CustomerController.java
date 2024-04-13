@@ -30,6 +30,9 @@ public class CustomerController {
 		CustomerDTO customerDTO4 = new CustomerDTO(14l, "Shekhar", "Surat", "7387029991", "shekharjava26@gmail.com");
 		CustomerDTO customerDTO5 = new CustomerDTO(15l, "Piyush", "Pune", "7387029001", "piyushjava26@gmail.com");
 		CustomerDTO customerDTO6 = new CustomerDTO(16l, "Ami", "Pune", "7387029123", "ami@gmail.com");
+		CustomerDTO customerDTO7 = new CustomerDTO(17l, "Darsh", "US", "7387029112", "darsh@gmail.com");
+		CustomerDTO customerDTO8 = new CustomerDTO(18l, "Pritam", "Surat", "7387029124", "pritam@gmail.com");
+		
 		
 		
 		customers.add(customerDTO1);
@@ -38,6 +41,9 @@ public class CustomerController {
 		customers.add(customerDTO4);
 		customers.add(customerDTO5);
 		customers.add(customerDTO6);
+		customers.add(customerDTO7);
+		customers.add(customerDTO8);
+		
 		
 		return customers;
 	}
