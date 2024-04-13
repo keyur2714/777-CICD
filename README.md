@@ -1,2 +1,2 @@
-# 777-CICD
-This is for AWS Batch 777 CICD
+# 770-CICD
+AWS Code pipeline testing
